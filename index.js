@@ -13,7 +13,7 @@ const port = 5000;
 // Manual CORS middleware
 app.use((req, res, next) => {
   // Allow requests from frontend
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.setHeader("Access-Control-Allow-Origin", "https://fastfoodbysam.netlify.app");
 
   // Allow these HTTP methods
   res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
